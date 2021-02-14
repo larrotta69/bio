@@ -2,7 +2,7 @@ export default [
 	{
 		id: 1,
 		slug: 'tensiometro-premium-abn-as-011',
-		image: 'tensiometro-premium-abn-AS-011-productos-biomedicos-cibiomed.jpg',
+		image: '1.jpg',
 		title: 'TENSIÓMETRO PREMIUM ABN AS-011',
 		description:
 			'Tensiómetro portatil adulto, Tipo Premium. Marca ABN. Ref. AS-011',

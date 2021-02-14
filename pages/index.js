@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
 import Post from '../components/post'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import productsData from '../data/products'
 
 export async function getStaticProps() {
@@ -18,6 +20,7 @@ export default function IndexPage(props) {
 			<Head>
 				<title>Home page</title>
 			</Head>
+			<Header />
 
 			<h1>List of posts</h1>
 
@@ -26,6 +29,7 @@ export default function IndexPage(props) {
 					<Post {...product} key={product.id} />
 				))}
 			</section>
+			<Footer />
 		</main>
 	)
 }
