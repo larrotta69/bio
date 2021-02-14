@@ -1,9 +1,12 @@
 import Head from 'next/head'
 
-import Post from '../components/post'
+import Card from '../components/Card'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import productsData from '../data/products'
+
+const getEquipmentProducts = (data) =>
+	data.filter((d) => d.category === 'equipo')
 
 export async function getStaticProps() {
 	return {
@@ -15,18 +18,18 @@ export async function getStaticProps() {
 
 export default function IndexPage(props) {
 	const { products } = props
+	const equipmentProducts = getEquipmentProducts(products)
 	return (
 		<main>
 			<Head>
-				<title>Home page</title>
+				<title>Probio ingeniería</title>
 			</Head>
 			<Header />
 
-			<h1>List of posts</h1>
-
 			<section>
-				{products.map((product) => (
-					<Post {...product} key={product.id} />
+				<h3>Equipos</h3>
+				{equipmentProducts.map((product) => (
+					<Card {...product} key={product.id} />
 				))}
 			</section>
 			<Footer />

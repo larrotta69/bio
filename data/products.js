@@ -9,6 +9,7 @@ export default [
 		],
 		sku: 'EQ20501',
 		categories: ['tensiometro', 'tensiometro-2'],
+		category: 'equipos',
 		tags: [
 			'ABN',
 			'Productos Biomédicos',
@@ -23,6 +24,7 @@ export default [
 		image: 'PULSOXIMETRO DE DEDO. MARCA MED LINKET.jpeg',
 		title: 'PULSOXIMETRO DE DEDO. MARCA MED LINKET',
 		description: ['PULSOXIMETRO DE DEDO, VISTO BUENO INVIMA '],
+		category: 'equipos',
 		sku: '',
 		categories: [],
 		tags: ['MEDLINKET', 'EQUIPOS ]'],
@@ -40,6 +42,7 @@ export default [
 		],
 		sku: '',
 		categories: ['Tensiometro '],
+		category: 'equipos',
 		tags: ['MEDLINKET', 'EQUIPOS ]'],
 	},
 ]
