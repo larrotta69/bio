@@ -1,6 +1,7 @@
 {
 	"name": "with-static-export",
 	"dependencies": {
+		"@material-ui/core": "^4.11.3",
 		"next": "latest",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
