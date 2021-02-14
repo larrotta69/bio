@@ -1,8 +1,7 @@
 import Head from 'next/head'
 
 import Card from '../components/Card'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+
 import productsData from '../data/products'
 
 const getEquipmentProducts = (data) =>
@@ -25,8 +24,6 @@ export default function IndexPage(props) {
 			<Head>
 				<title>Probio ingeniería</title>
 			</Head>
-			<Header />
-
 			<section className="product-section">
 				<h3>Equipos</h3>
 				<div className="product-wrapper">
@@ -35,7 +32,6 @@ export default function IndexPage(props) {
 					))}
 				</div>
 			</section>
-			<Footer />
 		</main>
 	)
 }

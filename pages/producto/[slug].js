@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Product from '../../components/Product'
 import productsData from '../../data/products'
 
 export async function getStaticPaths() {
@@ -19,21 +20,21 @@ export async function getStaticProps(props) {
 	const { params } = props
 	const post = productsData.find((product) => product.slug === params.slug)
 	return {
-		props: post,
+		props: {
+			post,
+		},
 	}
 }
 
 export default function Post(props) {
-	const { title, body } = props
+	const { title, post } = props
 	return (
 		<main>
 			<Head>
 				<title>{title}</title>
 			</Head>
 
-			<h1>{title}</h1>
-
-			<p>{body}</p>
+			<Product {...post} key={post.id} />
 
 			<Link href="/">
 				<a>Go back to home</a>
