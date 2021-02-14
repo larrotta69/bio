@@ -1,21 +1,39 @@
 export default [
 	{
-		userId: 1,
-		slug: 'slug-1',
-		image: '1.jpg',
 		id: 1,
-		title:
-			'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
-		body:
-			'quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto',
+		slug: 'tensiometro-premium-abn-as-011',
+		image: 'tensiometro-premium-abn-AS-011-productos-biomedicos-cibiomed.jpg',
+		title: 'TENSIÓMETRO PREMIUM ABN AS-011',
+		description:
+			'Tensiómetro portatil adulto, Tipo Premium. Marca ABN. Ref. AS-011',
+		sku: 'EQ20501',
+		categories: ['tensiometro', 'tensiometro-2'],
+		tags: [
+			'ABN',
+			'Productos Biomédicos',
+			'tensiometro',
+			'tensiometro aneroide',
+			'tensiometro portatil',
+		],
 	},
 	{
-		userId: 1,
-		slug: 'slug-2',
-		image: '2.png',
 		id: 2,
-		title: 'qui est esse',
-		body:
-			'est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis qui aperiam non debitis possimus qui neque nisi nulla',
+		slug: '',
+		image: '',
+		title: '',
+		description: '',
+		sku: '',
+		categories: [''],
+		tags: [],
+	},
+	{
+		id: 3,
+		slug: '',
+		image: '',
+		title: '',
+		description: '',
+		sku: '',
+		categories: [''],
+		tags: [],
 	},
 ]
