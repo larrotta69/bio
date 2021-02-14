@@ -2,10 +2,11 @@ export default [
 	{
 		id: 1,
 		slug: 'tensiometro-premium-abn-as-011',
-		image: '1.jpg',
+		image: 'tensiometro-premium-abn-AS-011-productos-biomedicos-cibiomed.jpg',
 		title: 'TENSIÓMETRO PREMIUM ABN AS-011',
-		description:
+		description: [
 			'Tensiómetro portatil adulto, Tipo Premium. Marca ABN. Ref. AS-011',
+		],
 		sku: 'EQ20501',
 		categories: ['tensiometro', 'tensiometro-2'],
 		tags: [
@@ -18,22 +19,27 @@ export default [
 	},
 	{
 		id: 2,
-		slug: '',
-		image: '',
-		title: '',
-		description: '',
+		slug: 'pulsoximetro-de-dedo-marca-med-linket',
+		image: 'PULSOXIMETRO DE DEDO. MARCA MED LINKET.jpeg',
+		title: 'PULSOXIMETRO DE DEDO. MARCA MED LINKET',
+		description: ['PULSOXIMETRO DE DEDO, VISTO BUENO INVIMA '],
 		sku: '',
-		categories: [''],
-		tags: [],
+		categories: [],
+		tags: ['MEDLINKET', 'EQUIPOS ]'],
 	},
 	{
 		id: 3,
-		slug: '',
-		image: '',
-		title: '',
-		description: '',
+		slug: 'tensiometro-portatil-adulto-tipo-economico-marca-abn-ref-as-051',
+		image:
+			'TENSIOMETRO PORTATIL ADULTO, TIPO ECONOMICO. MARCA ABN. REF AS-051.png',
+		title: 'TENSIOMETRO PORTATIL ADULTO',
+		description: [
+			'Provisto de manómetro negro de 300 mmHg.',
+			'Completo con válvula de escape de aire estándar',
+			'Empaquetado en estuche de vinilo negro con cremallera',
+		],
 		sku: '',
-		categories: [''],
-		tags: [],
+		categories: ['Tensiometro '],
+		tags: ['MEDLINKET', 'EQUIPOS ]'],
 	},
 ]
