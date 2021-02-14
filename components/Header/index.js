@@ -38,14 +38,11 @@ export default function Header() {
 					<IconButton
 						edge="start"
 						className={classes.menuButton}
-						color="red"
+						color="primary"
 						aria-label="menu"
+						onClick={handleClick}
 					>
-						<Button
-							aria-controls="simple-menu"
-							aria-haspopup="true"
-							onClick={handleClick}
-						>
+						<Button aria-controls="simple-menu" aria-haspopup="true">
 							Menu
 						</Button>
 					</IconButton>
