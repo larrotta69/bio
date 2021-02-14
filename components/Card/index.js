@@ -16,11 +16,7 @@ export default function ProductCard(props) {
 		<Link href={`/producto/${slug}`}>
 			<Card className={styles.card}>
 				<CardActionArea>
-					<CardMedia
-						className={styles.media}
-						image="https://placeimg.com/640/480/tech"
-						title={title}
-					/>
+					<CardMedia className={styles.media} image={image} title={title} />
 					<CardContent>
 						<Typography gutterBottom variant="h5" component="h2">
 							{title}
