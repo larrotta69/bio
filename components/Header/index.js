@@ -7,6 +7,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
+import MenuIcon from '@material-ui/icons/Menu'
 
 import styles from './Header.module.scss'
 
@@ -32,19 +33,17 @@ export default function Header() {
 		setAnchorEl(null)
 	}
 	return (
-		<div className={styles.header}>
+		<div className={styles.header, classes.root}>
 			<AppBar position="static">
 				<Toolbar variant="dense">
 					<IconButton
 						edge="start"
 						className={classes.menuButton}
-						color="primary"
+						color="inherit"
 						aria-label="menu"
 						onClick={handleClick}
 					>
-						<Button aria-controls="simple-menu" aria-haspopup="true">
-							Menu
-						</Button>
+						<MenuIcon />
 					</IconButton>
 					<Menu
 						id="simple-menu"
