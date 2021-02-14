@@ -1,0 +1,16 @@
+{
+	"name": "ProBio Ingenieria",
+	"short_name": "ProBio Ingenieria",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#7dd2f3",
+	"theme_color": "#7dd2f3",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

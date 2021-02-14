@@ -15,7 +15,11 @@ export default function ProductCard(props) {
 	return (
 		<Card className={styles.card}>
 			<CardActionArea>
-				<CardMedia image={image} title={title} />
+				<CardMedia
+					className={styles.media}
+					image="https://placeimg.com/640/480/tech"
+					title={title}
+				/>
 				<CardContent>
 					<Typography gutterBottom variant="h5" component="h2">
 						{title}

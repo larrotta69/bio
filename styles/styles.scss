@@ -1,0 +1,15 @@
+.main {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.product-section {
+	display: grid;
+}
+
+.product-wrapper {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 5rem;
+	row-gap: 5rem;
+}

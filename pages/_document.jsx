@@ -4,7 +4,7 @@ export default class AppDocument extends Document {
 	// eslint-disable-next-line class-methods-use-this
 	render() {
 		return (
-			<Html lang="en">
+			<Html lang="es">
 				<Head>
 					<link
 						rel="apple-touch-icon"
@@ -23,7 +23,6 @@ export default class AppDocument extends Document {
 						sizes="16x16"
 						href="/favicon-16x16.png"
 					/>
-					<link rel="preconnect" href="https://images.ctfassets.net/" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7dd2f3" />
 					<meta name="msapplication-TileColor" content="#7dd2f3" />
